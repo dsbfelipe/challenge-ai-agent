@@ -40,7 +40,6 @@ def semantic_search(query: str, k=5, min_score=0.5):
             "score": round(float(score), 4)
         })
 
-    # 🔥 ORDENAÇÃO CORRETA (cosine similarity)
     results.sort(key=lambda x: x["score"], reverse=True)
 
     return results

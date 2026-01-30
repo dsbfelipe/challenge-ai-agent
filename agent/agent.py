@@ -1,12 +1,9 @@
-from agent.prompt import PROMPT
-
 from tools.normalize import normalize_text
 from tools.spellcheck import spellcheck
 from tools.semantic_search import semantic_search
 from tools.suggest_alternatives import suggest_alternatives
 
 import json
-
 
 with open("vectorstore/grammar.json") as f:
     GRAMMAR = json.load(f)

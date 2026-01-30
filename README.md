@@ -51,7 +51,7 @@ pip install groq==1.0.0
 
 ```bash
 # Criar o índice vetorial FAISS
-python3 -m tools/indexer.py
+python3 -m tools.indexer
 ```
 
 Estes comandos irão:
@@ -197,7 +197,7 @@ Buscar: nobbk
 Se adicionar novos produtos ao catálogo:
 
 ```bash
-python3 -m tools/indexer.py
+python3 -m tools.indexer
 ```
 
 Este script:
@@ -210,7 +210,7 @@ Este script:
 Para atualizar a base de correção ortográfica:
 
 ```bash
-python3 -m tools/indexer.py
+python3 -m tools.indexer
 ```
 
 Este script:
@@ -291,7 +291,7 @@ echo "nobbk" | python main.py
 
 2. Recrie os índices:
 ```bash
-python3 -m tools/indexer.py
+python3 -m tools.indexer
 ```
 
 3. Teste:
