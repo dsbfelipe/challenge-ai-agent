@@ -1,0 +1,5 @@
+sentence-transformers==5.2.2
+faiss-cpu==1.13.2
+RapidFuzz==3.14.3
+Unidecode==1.4.0
+groq==1.0.0
